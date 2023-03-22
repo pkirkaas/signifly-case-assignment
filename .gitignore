@@ -1,0 +1,75 @@
+# Node artifact files
+node_modules/
+dist/
+package-lock.json
+
+build/
+
+tmp/
+*.tmp
+
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+logs
+# Unit test reports
+TEST*.xml
+
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+#env
+.env
+
+#VIM swap files
+*.swp
+*.swo
+
+#Backup files
+*.bak
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/MongoQP-api/configs/mongo-connections.json5
+/MongoQP-api/configs/tst-set.json5
+/common/tsconfig.tsbuildinfo
+/MongoQP-api/src/lib/node/node-operations.ts
+/MongoQP-api/src/lib/common/common-operations.ts
+/MongoQP-api/src/lib/common/index.ts
+/MongoQP-api/src/lib/node/index.ts
+/MongoQP-api/src/lib/common/Readme.MD
+/MongoQP-api/src/lib/node/Readme.MD
+/MongoQP-api/src/lib/node/cliSupport.ts
+/pk-lib/client/tsconfig.json
+/MongoQP-client/src/lib/common/index.ts
+/MongoQP-client/src/lib/common/common-operations.ts
+/MongoQP-client/src/lib/client/index.ts

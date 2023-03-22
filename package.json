@@ -1,0 +1,33 @@
+{
+  "name": "signifly-case-assignment",
+  "version": "1.0.0",
+  "description": "Signifly Case Assignment for Paul Kirkaas",
+  "repository": {
+    "type": "git"
+  },
+  "engines": {
+    "node": ">= 18.0.0"
+  },
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf ./dist ./node_modules package-lock.json",
+    "develop": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "nodemon": "*",
+    "pk-ts-sqlite-lib": "git+https://github.com/pkirkaas/pk-ts-sqlite-lib.git#working"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "sqlite",
+    "configuration"
+  ],
+  "author": "Paul Kirkaas",
+  "license": "None"
+}
