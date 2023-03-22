@@ -1,4 +1,7 @@
-import { deepMeld, typeOf, runCli, cwd, GenObj, isSimpleObject, } from '../init.js';
+import { projectDir, deepMeld, getDirname, getFilename, typeOf, runCli, cwd, GenObj, isSimpleObject, } from '../init.js';
+
+
+console.log({ projectDir,});
 
 
 function tst3() {
@@ -20,4 +23,4 @@ function tst3() {
 	console.log({ dm });
 }
 
-tst3();
+//tst3();

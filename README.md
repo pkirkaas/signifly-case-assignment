@@ -58,6 +58,29 @@ It's particularly challenging because while there are many wrong approaches, the
 
 ## Install
 
+This demo can be installed and run on any of Windows, Linux or MacOS - **BUT** it *DOES* require `bash` as the command shell.
+
+So to run/build on windows, must have a bash implementation in the path - like cygwin or git-bash.
+
+Then configure NPM to use bash as the command shell by:
+
+`npm config set script-shell "bash.exe"`
+
+or 
+
+`npm config set shell "bash.exe"`
+
+(depending on the version of npm)
+
+To see what shell is used:
+
+To see what shell is set:
+npm config ls -l | grep shell
+
+To return/restore to defaults:
+
+`npm config delete script-shell`
+
 ```sh
 npm install
 ```

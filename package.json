@@ -11,16 +11,19 @@
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "clean": "rm -rf ./dist ./node_modules package-lock.json",
+    "clean": "rm -rf ./dist ./node_modules package-lock.json ./tmp",
+    "postinstall": "mkdir -p ./tmp",
     "develop": "nodemon src/index.ts"
   },
   "dependencies": {
+    "@prisma/client": "^4.11.0",
     "body-parser": "*",
     "cookie-parser": "*",
     "cors": "*",
     "express": "*",
     "nodemon": "*",
-    "pk-ts-sqlite-lib": "git+https://github.com/pkirkaas/pk-ts-sqlite-lib.git#working"
+    "pk-ts-sqlite-lib": "git+https://github.com/pkirkaas/pk-ts-sqlite-lib.git#working",
+    "prisma": "^4.11.0"
   },
   "keywords": [
     "node",
